@@ -1,4 +1,4 @@
-# Part 1: Gloved vs. Ungloved Hand Detection
+# Gloved vs. Ungloved Hand Detection
 
 This project involves fine-tuning a YOLOv8 model to detect `gloved_hand` and `bare_hand` for a safety compliance system.
 
