@@ -1,0 +1,13 @@
+names:
+- glove
+- no_glove
+nc: 2
+roboflow:
+  license: MIT
+  project: glove-q7czq
+  url: https://universe.roboflow.com/glove-uylxg/glove-q7czq/dataset/1
+  version: 1
+  workspace: glove-uylxg
+test: ../test/images
+train: train_fold5.txt
+val: val_fold5.txt
