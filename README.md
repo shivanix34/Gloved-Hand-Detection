@@ -1,5 +1,6 @@
 # Gloved vs. Ungloved Hand Detection
 
+
 This project involves fine-tuning a YOLOv8 model to detect `gloved_hand` and `bare_hand` for a safety compliance system.
 
 
@@ -95,3 +96,18 @@ For each fold, the script performed these steps:
 4.  **Check Results:**
     * Annotated images will be saved in the `output/` folder.
     * JSON logs for each image will be saved in the `logs/` folder.
+  
+---
+
+### Outputs
+
+<table>
+  <tr>
+    <td align="center"><b>Original Image</b></td>
+    <td align="center"><b>Annotated Image</b></td>
+  </tr>
+  <tr>
+    <td><img src="Part_1_Glove_Detection/sample_images/S__34734373_jpg.rf.4c8486ba8572c6888ce2be85fd330ffa.jpg" width="100%"></td>
+    <td><img src="Part_1_Glove_Detection/output/S__34734373_jpg.rf.4c8486ba8572c6888ce2be85fd330ffa.jpg" width="100%"></td>
+  </tr>
+</table>
